@@ -9,7 +9,10 @@ Rails.application.configure do
   # Do not eager load code on boot.
   config.eager_load = false
 
-  # Show full error reports.
+
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+ 
   config.consider_all_requests_local = true
 
   # Enable/disable caching. By default caching is disabled.
@@ -26,7 +29,7 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  # Don't care if the mailer can't send.
+   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
