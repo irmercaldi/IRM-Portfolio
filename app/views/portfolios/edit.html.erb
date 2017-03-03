@@ -1,19 +1,16 @@
-<h1>Edit this Portfolio Item</h1>
+<h1 style="font-family: sans-serif;">Edit this Portfolio Item</h1>
 
 <%= form_for(@portfolio_item) do |f| %>
   <div class="field">
-    <%= f.label :title %>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, placeholder: "Title" %>
   </div>
 
   <div class="field">
-    <%= f.label :subtitle %>
-    <%= f.text_field :subtitle %>
+    <%= f.text_field :subtitle, placeholder: "Subtitle" %>
   </div>
 
   <div class="field">
-    <%= f.label :body %>
-    <%= f.text_area :body %>
+    <%= f.text_area :body, placeholder: "Enter content here" %>
   </div>
 
   <div class="actions">
