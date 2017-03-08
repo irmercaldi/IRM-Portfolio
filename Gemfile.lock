@@ -1,12 +1,7 @@
-GIT
-  remote: https://github.com/irmercaldi/MercaldiViewTool
-  revision: f672a2d75b9ce8950124cd078164dfd9e298ed6c
-  specs:
-    MercaldiViewTool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
+    MercaldiViewTool (0.1.0)
     actioncable (5.0.1)
       actionpack (= 5.0.1)
       nio4r (~> 1.2)
@@ -179,7 +174,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  MercaldiViewTool!
+  MercaldiViewTool (~> 0.1.0)
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)

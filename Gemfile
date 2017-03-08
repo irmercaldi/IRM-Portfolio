@@ -56,4 +56,4 @@ gem 'devise', '~> 4.2'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
-gem 'MercaldiViewTool', git: 'https://github.com/irmercaldi/MercaldiViewTool'
+gem 'MercaldiViewTool', '~> 0.1.0'
