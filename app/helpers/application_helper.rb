@@ -19,4 +19,8 @@ module ApplicationHelper
   def copyright_generator
     MercaldiViewTool::Renderer.copyright 'Ian Mercaldi', 'All rights reserved'
   end
+
+  def nav_helper style, tag_type
+
+  end
 end
