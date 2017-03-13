@@ -12,3 +12,5 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( blogs.scss )
 Rails.application.config.assets.precompile += %w( portfolios.scss )
 Rails.application.config.assets.precompile += %w( about.css )
+Rails.application.config.assets.precompile += %w( contact.css )
+Rails.application.config.assets.precompile += %w( home.css )
