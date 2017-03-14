@@ -4,15 +4,17 @@
     <%= stylesheet_link_tag    'about', media: 'all', 'data-turbolinks-track': 'reload' %>
   </head>
     <div>
-      <body>
-        <img class="picture-me" src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-1/p160x160/16997739_1750704261909616_3021163660438210074_n.jpg?oh=4af897033c4ede01d0a875ad37c33fd1&oe=596790E6">
+      <div class="row">
+        <div class="col-md-4">
+          <%= image_tag "profile.jpg", width: 300, alt: "profile image", class: "picture-me" %>
+        </div>
+        <div class="col-md-8">
+          <p>After 10 years split between working as a Firefighter and as an Infantryman in the United States Army, I decided that I wanted a change. After much deliberation, I packed up, moved 2500+ miles away from the place I called home and found myself enrolling in the February 2017 cohort at Bottega Tech.</p>
 
-        <h1>About Me</h1>
-        <p>After 10 years split between working as a Firefighter and as an Infantryman in the United State Army, I decided that I wanted a change. After much deliberation, I packed up, moved 2500+ miles away from the place I called home and found myself enrolling in the February 2017 cohort at Bottega Tech.</p>
+          <p>"Education is the kindling of a flame, not the filling of a vessel."</p>
 
-        <p>"Education is the kindling of a flame, not the filling of a vessel."</p>
-
-        <p>-Socrates</p>
-      </body>
+          <p>-Socrates</p>
+        </div>
+      </div>
     </div>
 </html>
