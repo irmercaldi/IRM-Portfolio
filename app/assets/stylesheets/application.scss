@@ -5,7 +5,9 @@
 /*
  * Globals
  */
-
+* {
+  font-family: "Ubuntu";
+}
 /* Links */
 a,
 a:focus,
@@ -214,11 +216,26 @@ text-align: right;
   margin-right: 0px;
 }
 
+.tech-news {
+  color: black;
+  margin: 20px;
+  opacity: 0.7;
+}
 
+.tech-news a {
+  color: green;
+}
 
+.tech-news > .card {
+  padding: 30px;
+}
 
-
-
+.card {
+  width: 50%;
+  margin: auto;
+  border: 2px black solid;
+  
+}
 
 
 
