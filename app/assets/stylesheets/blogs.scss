@@ -24,8 +24,6 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
   color: #333;
 }
 
@@ -186,4 +184,8 @@ h6, .h6 {
 
 .comment-attribution {
   font-size: .8em
+}
+
+.first-name {
+  font-weight: 800;
 }
