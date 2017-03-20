@@ -10,7 +10,26 @@
         <div class="row">
           <div class="col-md-4">
             <%= image_tag "profile.jpg", width: 300, alt: "profile image", class: "picture-me" %>
+
+
+            <div class="skills">
+              <% @skills.each do |skill| %>
+                <div class="skill">
+                  <h4><%= skill.title %></h4>
+                  <div class="progress">
+                    <div 
+                      class="progress-bar progress-bar-striped bg-warning"
+                      role="progressbar"
+                      aria-valuenow="<%= skill.percent_utilized %>"
+                      aria-valuemax="100"
+                      style="width: <%= skill.percent_utilized %>%"
+                    ></div>
+                  </div>
+                </div>
+              <% end %>
+            </div>
           </div>
+
           <div class="col-md-8">
             <p>After 10 years split between working as a Firefighter and as an Infantryman in the United States Army, I decided that I wanted a change. After much deliberation, I packed up, moved 2500+ miles away from the place I called home and found myself enrolling in the February 2017 cohort at Bottega Tech.</p>
             <br>
