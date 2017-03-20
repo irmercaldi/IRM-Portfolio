@@ -2,10 +2,10 @@
 
   <h1><%= @topic.title %></h1>
 
-    <%= paginate @blogs %>
+  <%= paginate @blogs %>
+  
+  <%= render @blogs %>
 
-    <%= render @blogs %>
-
-    <%= paginate @blogs %>
+  <%= paginate @blogs %>
 
 </div>
