@@ -9,6 +9,9 @@
 
     <meta name="keywords" content="<%= @seo_keywords %>" />
 
+    <%= favicon_link_tag 'favicons/favicon.ico' %>
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -18,13 +21,26 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
+         <%= video_tag(
+            'turntable.mp4',
+            id: 'background',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            poster: 'record.jpg'
+          )
+          %>
+                    
+        </div>
+        
+
         <%= render "shared/application_nav" %>
 
         <%= yield %>
 
         <%= render "shared/application_footer" %>
 
-        <%= source_helper("application") %>
+        <%= alerts %>
 
         </div>
       </div>

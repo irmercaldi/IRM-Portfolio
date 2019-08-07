@@ -1,5 +1,43 @@
-@import "bootstrap";
+@import "gritter";
+/*@import "bootstrap";*/
+@import "font-awesome";
 
-.map-image {
-  border: 5px black solid;
+.app-card-container {
+  text-align: center; 
+}
+
+.social-links {
+  font-size: 2.5em;
+}
+
+.fa-github {
+  padding-right: 10px;
+  color: black;
+}
+
+.fa-facebook {
+  padding-right: 10px;
+  color: black;
+}
+
+.fa-twitter {
+  padding-right: 10px;
+  color: black;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.email-tag {
+  
+}
+
+.fa-linkedin {
+  color: black;
+  padding-left: 10px;
+}
+
+.card {
+  background-color: #cbccc9;
 }
